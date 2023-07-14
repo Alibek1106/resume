@@ -34,7 +34,7 @@
 }
 
 .header-text a{
-    padding-left:35px;
+    padding-left: 23px;
     background-repeat: no-repeat;
     white-space: nowrap;
 }
@@ -48,7 +48,7 @@ a:active{
 }
 
 .header-text a:not(:last-child){
-    margin-right: 55px;
+    margin-right: 35px;
 }
 
 .phone-num{
@@ -82,7 +82,11 @@ a:active{
 }
 
 .profile-block p{
-    font-size: 22px;
+    font-size: 18px;
+}
+
+.profile-block a{
+    color: #d66c2b;
 }
 
 .experience-block{
@@ -170,11 +174,11 @@ a:active{
 }
 
 .scale-css{
-    background-image: linear-gradient(to right, #d66c2b 0%, #d66c2b 80%, #fff 80%, #fff 100%);
+    background-image: linear-gradient(to right, #d66c2b 0%, #d66c2b 100%);
 }
 
 .scale-js{
-    background-image: linear-gradient(to right,#d66c2b 0%, #d66c2b 40%, #fff 40%, #fff 100%);
+    background-image: linear-gradient(to right,#d66c2b 0%, #d66c2b 70%, #fff 70%, #fff 100%);
 }
 
 .scale-python{
@@ -187,7 +191,6 @@ a:active{
 
 .additional-info-wrapper{
     display: flex;
-    justify-content: space-between;
 }
 
 .reference{
